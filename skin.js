@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.8/20017
 // Filename: ???-38A.ggsk
-// Generated 2023-12-29T10:45:04
+// Generated 2023-12-29T10:57:39
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_roomchoice', 2, false, { ignoreInState: 0  });
@@ -16216,7 +16216,7 @@ function pano2vrSkin(player,base) {
 		hs+='font-size: 12px;';
 		hs+='font-weight: inherit;';
 		hs+='text-align: center;';
-		hs+='white-space: pre;';
+		hs+='white-space: pre-line;';
 		hs+='padding: 0px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
@@ -24220,11 +24220,11 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='cursor : pointer;';
 		hs+='height : 44px;';
-		hs+='left : calc(50% - ((28px + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((38px + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : calc(50% - ((44px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
-		hs+='width : 28px;';
+		hs+='width : 38px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 100%';
@@ -24262,9 +24262,9 @@ function pano2vrSkin(player,base) {
 					skin.updateSize(me._map_pin_normal2);
 				}
 				else {
-					me._map_pin_normal2.style.width='28px';
+					me._map_pin_normal2.style.width='38px';
 					me._map_pin_normal2.style.height='44px';
-					me._map_pin_normal2.style.left = 'calc(50% - (28px / 2))';
+					me._map_pin_normal2.style.left = 'calc(50% - (38px / 2))';
 					me._map_pin_normal2.style.top = 'calc(50% - (44px / 2))';
 					skin.updateSize(me._map_pin_normal2);
 				}
@@ -24286,7 +24286,7 @@ function pano2vrSkin(player,base) {
 				me._map_pin_normal2.ggCurrentLogicStateScaling = newLogicStateScaling;
 				me._map_pin_normal2.style.transition='width 0s, height 0s, transform 200ms ease 0ms, opacity 500ms ease 0ms';
 				if (me._map_pin_normal2.ggCurrentLogicStateScaling == 0) {
-					me._map_pin_normal2.ggParameter.sx = 1.1;
+					me._map_pin_normal2.ggParameter.sx = 1.2;
 					me._map_pin_normal2.ggParameter.sy = 1.1;
 					me._map_pin_normal2.style.transform=parameterToTransform(me._map_pin_normal2.ggParameter);
 					setTimeout(function() {skin.updateSize(me._map_pin_normal2);}, 250);
