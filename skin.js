@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.8/20017
 // Filename: ???-38A.ggsk
-// Generated 2023-12-29T10:23:12
+// Generated 2023-12-29T10:33:21
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_roomchoice', 2, false, { ignoreInState: 0  });
@@ -13915,10 +13915,10 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='height : 64.5833%;';
+		hs+='height : 70%;';
 		hs+='left : calc(50% - ((100% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((64.5833% + 0px) / 2) + 0px);';
+		hs+='top : calc(50% - ((70% + 0px) / 2) + 0px);';
 		hs+='visibility : hidden;';
 		hs+='width : 100%;';
 		hs+='pointer-events:none;';
@@ -13946,11 +13946,11 @@ function pano2vrSkin(player,base) {
 				me.__29.style.transition='left 500ms ease 0ms, top 500ms ease 0ms, width 0s, height 0s, transform 0s';
 				if (me.__29.ggCurrentLogicStatePosition == 0) {
 					me.__29.style.left = 'calc(50% - (100% / 2) + (0px / 2) + 5px)';
-					me.__29.style.top = 'calc(50% - (64.5833% / 2) + (0px / 2) + -120px)';
+					me.__29.style.top = 'calc(50% - (70% / 2) + (0px / 2) + -120px)';
 				}
 				else {
 					me.__29.style.left='calc(50% - ((100% + 0px) / 2) + 0px)';
-					me.__29.style.top='calc(50% - ((64.5833% + 0px) / 2) + 0px)';
+					me.__29.style.top='calc(50% - ((70% + 0px) / 2) + 0px)';
 				}
 			}
 		}
@@ -13978,9 +13978,9 @@ function pano2vrSkin(player,base) {
 				}
 				else {
 					me.__29.style.width='100%';
-					me.__29.style.height='64.5833%';
+					me.__29.style.height='70%';
 					me.__29.style.left = 'calc(50% - (100% / 2))';
-					me.__29.style.top = 'calc(50% - (64.5833% / 2))';
+					me.__29.style.top = 'calc(50% - (70% / 2))';
 					skin.updateSize(me.__29);
 				}
 			}
@@ -14188,9 +14188,9 @@ function pano2vrSkin(player,base) {
 				me.__33.ggCurrentLogicStateSize = newLogicStateSize;
 				me.__33.style.transition='width 0s, height 0s';
 				if (me.__33.ggCurrentLogicStateSize == 0) {
-					me.__33.style.width='95%';
+					me.__33.style.width='90%';
 					me.__33.style.height='100%';
-					me.__33.style.left = 'calc(50% - (95% / 2))';
+					me.__33.style.left = 'calc(50% - (90% / 2))';
 					me.__33.style.top = 'calc(50% - (100% / 2))';
 					skin.updateSize(me.__33);
 				}
@@ -22372,48 +22372,30 @@ function pano2vrSkin(player,base) {
 			me._image_3.logicBlock_position();
 			me._image_4.logicBlock_position();
 			me.__29.logicBlock_position();
-			for (var i=0; i < me._map_1.ggMarkerInstances.length; i++) {
-				me._map_1.ggMarkerInstances[i].ggEvent_configloaded();
-			}
 			if (me._map_1.ggVisible) {
 				me._map_1.ggClearMap();
 				me._map_1.ggInitMap(false);
 				me._map_1.ggInitMapMarkers(true);
-			}
-			for (var i=0; i < me._map_2.ggMarkerInstances.length; i++) {
-				me._map_2.ggMarkerInstances[i].ggEvent_configloaded();
 			}
 			if (me._map_2.ggVisible) {
 				me._map_2.ggClearMap();
 				me._map_2.ggInitMap(false);
 				me._map_2.ggInitMapMarkers(true);
 			}
-			for (var i=0; i < me._map_3.ggMarkerInstances.length; i++) {
-				me._map_3.ggMarkerInstances[i].ggEvent_configloaded();
-			}
 			if (me._map_3.ggVisible) {
 				me._map_3.ggClearMap();
 				me._map_3.ggInitMap(false);
 				me._map_3.ggInitMapMarkers(true);
-			}
-			for (var i=0; i < me._map_4.ggMarkerInstances.length; i++) {
-				me._map_4.ggMarkerInstances[i].ggEvent_configloaded();
 			}
 			if (me._map_4.ggVisible) {
 				me._map_4.ggClearMap();
 				me._map_4.ggInitMap(false);
 				me._map_4.ggInitMapMarkers(true);
 			}
-			for (var i=0; i < me._map_5.ggMarkerInstances.length; i++) {
-				me._map_5.ggMarkerInstances[i].ggEvent_configloaded();
-			}
 			if (me._map_5.ggVisible) {
 				me._map_5.ggClearMap();
 				me._map_5.ggInitMap(false);
 				me._map_5.ggInitMapMarkers(true);
-			}
-			for (var i=0; i < me._map_6.ggMarkerInstances.length; i++) {
-				me._map_6.ggMarkerInstances[i].ggEvent_configloaded();
 			}
 			if (me._map_6.ggVisible) {
 				me._map_6.ggClearMap();
@@ -24089,13 +24071,13 @@ function pano2vrSkin(player,base) {
 		el.ggType='image';
 		hs ='';
 		hs+='cursor : pointer;';
-		hs+='height : 15px;';
-		hs+='left : calc(50% - ((15px + 0px) / 2) + 0px);';
+		hs+='height : 22px;';
+		hs+='left : calc(50% - ((22px + 0px) / 2) + 0px);';
 		hs+='opacity : 0;';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((15px + 0px) / 2) + 0px);';
+		hs+='top : calc(50% - ((22px + 0px) / 2) + 0px);';
 		hs+='visibility : hidden;';
-		hs+='width : 15px;';
+		hs+='width : 22px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 100%';
@@ -24119,12 +24101,6 @@ function pano2vrSkin(player,base) {
 			{
 				newLogicStateSize = 0;
 			}
-			else if (
-				((player.getIsMobile() == true))
-			)
-			{
-				newLogicStateSize = 1;
-			}
 			else {
 				newLogicStateSize = -1;
 			}
@@ -24132,24 +24108,17 @@ function pano2vrSkin(player,base) {
 				me._map_pin_active2.ggCurrentLogicStateSize = newLogicStateSize;
 				me._map_pin_active2.style.transition='width 0s, height 0s, transform 200ms ease 0ms, opacity 500ms ease 0ms';
 				if (me._map_pin_active2.ggCurrentLogicStateSize == 0) {
-					me._map_pin_active2.style.width='10px';
-					me._map_pin_active2.style.height='10px';
-					me._map_pin_active2.style.left = 'calc(50% - (10px / 2))';
-					me._map_pin_active2.style.top = 'calc(50% - (10px / 2))';
-					skin.updateSize(me._map_pin_active2);
-				}
-				else if (me._map_pin_active2.ggCurrentLogicStateSize == 1) {
-					me._map_pin_active2.style.width='10px';
-					me._map_pin_active2.style.height='10px';
-					me._map_pin_active2.style.left = 'calc(50% - (10px / 2))';
-					me._map_pin_active2.style.top = 'calc(50% - (10px / 2))';
+					me._map_pin_active2.style.width='18px';
+					me._map_pin_active2.style.height='18px';
+					me._map_pin_active2.style.left = 'calc(50% - (18px / 2))';
+					me._map_pin_active2.style.top = 'calc(50% - (18px / 2))';
 					skin.updateSize(me._map_pin_active2);
 				}
 				else {
-					me._map_pin_active2.style.width='15px';
-					me._map_pin_active2.style.height='15px';
-					me._map_pin_active2.style.left = 'calc(50% - (15px / 2))';
-					me._map_pin_active2.style.top = 'calc(50% - (15px / 2))';
+					me._map_pin_active2.style.width='22px';
+					me._map_pin_active2.style.height='22px';
+					me._map_pin_active2.style.left = 'calc(50% - (22px / 2))';
+					me._map_pin_active2.style.top = 'calc(50% - (22px / 2))';
 					skin.updateSize(me._map_pin_active2);
 				}
 			}
@@ -24250,12 +24219,12 @@ function pano2vrSkin(player,base) {
 		el.ggType='image';
 		hs ='';
 		hs+='cursor : pointer;';
-		hs+='height : 22px;';
-		hs+='left : calc(50% - ((16px + 0px) / 2) + 0px);';
+		hs+='height : 44px;';
+		hs+='left : calc(50% - ((28px + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((22px + 0px) / 2) + 0px);';
+		hs+='top : calc(50% - ((44px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
-		hs+='width : 16px;';
+		hs+='width : 28px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 100%';
@@ -24271,6 +24240,37 @@ function pano2vrSkin(player,base) {
 			}
 			return me.ggNodeId;
 		}
+		me._map_pin_normal2.logicBlock_size = function() {
+			var newLogicStateSize;
+			if (
+				((player.getViewerSize().width <= 460))
+			)
+			{
+				newLogicStateSize = 0;
+			}
+			else {
+				newLogicStateSize = -1;
+			}
+			if (me._map_pin_normal2.ggCurrentLogicStateSize != newLogicStateSize) {
+				me._map_pin_normal2.ggCurrentLogicStateSize = newLogicStateSize;
+				me._map_pin_normal2.style.transition='width 0s, height 0s, transform 200ms ease 0ms, opacity 500ms ease 0ms';
+				if (me._map_pin_normal2.ggCurrentLogicStateSize == 0) {
+					me._map_pin_normal2.style.width='16px';
+					me._map_pin_normal2.style.height='22px';
+					me._map_pin_normal2.style.left = 'calc(50% - (16px / 2))';
+					me._map_pin_normal2.style.top = 'calc(50% - (22px / 2))';
+					skin.updateSize(me._map_pin_normal2);
+				}
+				else {
+					me._map_pin_normal2.style.width='28px';
+					me._map_pin_normal2.style.height='44px';
+					me._map_pin_normal2.style.left = 'calc(50% - (28px / 2))';
+					me._map_pin_normal2.style.top = 'calc(50% - (44px / 2))';
+					skin.updateSize(me._map_pin_normal2);
+				}
+			}
+		}
+		me._map_pin_normal2.logicBlock_size();
 		me._map_pin_normal2.logicBlock_scaling = function() {
 			var newLogicStateScaling;
 			if (
@@ -24284,7 +24284,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me._map_pin_normal2.ggCurrentLogicStateScaling != newLogicStateScaling) {
 				me._map_pin_normal2.ggCurrentLogicStateScaling = newLogicStateScaling;
-				me._map_pin_normal2.style.transition='transform 200ms ease 0ms, opacity 500ms ease 0ms';
+				me._map_pin_normal2.style.transition='width 0s, height 0s, transform 200ms ease 0ms, opacity 500ms ease 0ms';
 				if (me._map_pin_normal2.ggCurrentLogicStateScaling == 0) {
 					me._map_pin_normal2.ggParameter.sx = 1.1;
 					me._map_pin_normal2.ggParameter.sy = 1.1;
@@ -24313,7 +24313,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me._map_pin_normal2.ggCurrentLogicStateAlpha != newLogicStateAlpha) {
 				me._map_pin_normal2.ggCurrentLogicStateAlpha = newLogicStateAlpha;
-				me._map_pin_normal2.style.transition='transform 200ms ease 0ms, opacity 500ms ease 0ms';
+				me._map_pin_normal2.style.transition='width 0s, height 0s, transform 200ms ease 0ms, opacity 500ms ease 0ms';
 				if (me._map_pin_normal2.ggCurrentLogicStateAlpha == 0) {
 					setTimeout(function() { if (me._map_pin_normal2.style.opacity == 0.0) { me._map_pin_normal2.style.visibility="hidden"; } }, 505);
 					me._map_pin_normal2.style.opacity=0;
@@ -24339,17 +24339,16 @@ function pano2vrSkin(player,base) {
 		me._map_pin_active2.logicBlock_size();
 		me._map_pin_active2.logicBlock_scaling();
 		me._map_pin_active2.logicBlock_alpha();
+		me._map_pin_normal2.logicBlock_size();
 		me._map_pin_normal2.logicBlock_scaling();
 		me._map_pin_normal2.logicBlock_alpha();
 			me.ggEvent_changenode=function() {
 				me._map_pin_active2.logicBlock_alpha();
 				me._map_pin_normal2.logicBlock_alpha();
 			};
-			me.ggEvent_configloaded=function() {
-				me._map_pin_active2.logicBlock_size();
-			};
 			me.ggEvent_sizechanged=function() {
 				me._map_pin_active2.logicBlock_size();
+				me._map_pin_normal2.logicBlock_size();
 			};
 	};
 	function SkinHotspotClass_ht_node(parentScope,hotspot) {
